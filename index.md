@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Updates/News
+## Pages Pro v2.3.1 Realesed
 
-You can use the [editor on GitHub](https://github.com/kadedevteam/flixe-updates/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+This patch release of the 2.3 series is released to fix a bug where the `include` tag does not allow valid filename characters. 
+For example, this would previously fail:
+```
+{% include my-logo@2x.svg %}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This release adds support for the following characters in filenames:
+- `@`
+- `-`
+- `(` and `)`
+- `+`
+- `~`
+- `#`
 
-### Jekyll Themes
+## Changelogs!
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kadedevteam/flixe-updates/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### - [Realse Build 2.3 Series]()
+> CURRENT
+### - [Realse Build 2.2 Series]()
+> Usable 
+### - [Realse Nightly 2.2 Series]()
+> Usable 
+### - [Realse Build 2.1 Series]()
+> Usable 
+### - [Realse Build 2.0 Series]()
+> Remasterd
+### - [Realse Build 1.9 Series]()
+> Old Build!
+### - [Realse Build 1.8 Series]()
+> Old Build!
+### - [Realse Build 1.7 Series]()
+### Find more builds [here!]()
+> These builds are unsupottred!
