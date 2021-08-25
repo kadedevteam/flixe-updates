@@ -4,7 +4,7 @@
 This patch release of the 2.3 series is released to fix a bug where the `include` tag does not allow valid filename characters. 
 For example, this would previously fail:
 ```
-{% include my-logo@2x.svg %}
+{include error: l2.3]
 ```
 
 This release adds support for the following characters in filenames:
